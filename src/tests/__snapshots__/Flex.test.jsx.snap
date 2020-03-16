@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should have Flexbox properties 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+<Flex
+  alignItems="center"
+  justifyContent="space-between"
+>
+  <styled.div
+    css={
+      Array [
+        Object {
+          "cssProp": "align-items",
+          "val": "center",
+        },
+        Object {
+          "cssProp": "justify-content",
+          "val": "space-between",
+        },
+      ]
+    }
+  >
+    <div
+      className="c0"
+    >
+      <div />
+    </div>
+  </styled.div>
+</Flex>
+`;
+
+exports[`Inline flex switch should be reflected in \`display\` property 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+<Flex
+  inlineFlex={true}
+>
+  <styled.div
+    css={Array []}
+    inlineFlex={true}
+  >
+    <div
+      className="c0"
+    >
+      <div />
+    </div>
+  </styled.div>
+</Flex>
+`;

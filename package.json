@@ -1,0 +1,49 @@
+{
+  "name": "react-stuff",
+  "description": "A collection of useful React components",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/react-stuff.js",
+  "umd:main": "dist/react-stuff.umd.js",
+  "module": "dist/react-stuff.m.js",
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "styled-components": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/progging/react-stuff"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.4",
+    "@types/jsdom": "^16.1.0",
+    "@types/lodash.kebabcase": "^4.1.6",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^5.0.1",
+    "babel-jest": "^25.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "jest": "^25.1.0",
+    "jest-styled-components": "^7.0.0",
+    "jsdom": "^16.2.1",
+    "lodash.kebabcase": "^4.1.1",
+    "microbundle": "^0.11.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "build": "microbundle src/index.ts -o dist/ --name reactStuff",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  }
+}
