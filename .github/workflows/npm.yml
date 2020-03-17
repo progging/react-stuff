@@ -4,6 +4,7 @@ on:
     types: [ closed ]
     branches:
       - master # Change this to your default branch
+
 jobs:
   npm-publish:
     name: npm-publish
