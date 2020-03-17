@@ -2,8 +2,8 @@ name: Publish to NPM
 on:
   pull_request:
     types: [ closed ]
-  branches:
-    - master # Change this to your default branch
+    branches:
+      - master # Change this to your default branch
 jobs:
   npm-publish:
     name: npm-publish
