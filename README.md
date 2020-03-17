@@ -2,7 +2,7 @@
 A collection of useful React components. Uses [`styled-components`](https://github.com/styled-components/styled-components) for CSS.
 
 ## Usage
-Run `npm i -S react-stuff` or `yarn add react-stuff`
+Run `npm i -S react-stuff` or `yarn add react-stuff`.
 
 Then to import, do this:
 ```js
@@ -77,4 +77,4 @@ If you want to change the base unit, use `styledcomponents`'s `<ThemeProvider>`:
 
 
 ## Test
-Clone this, then run `npm i && npm t`
+Clone this, then run `npm i && npm t`.
