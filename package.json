@@ -1,7 +1,7 @@
 {
   "name": "react-stuff",
   "description": "A collection of useful React components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/react-stuff.js",
   "umd:main": "dist/react-stuff.umd.js",
