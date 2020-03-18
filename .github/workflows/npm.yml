@@ -1,7 +1,6 @@
 name: Publish to NPM on release
 on:
-  release:
-    types: [published]
+  push:
 jobs:
   npm-publish:
     name: npm-publish
