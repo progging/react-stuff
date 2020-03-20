@@ -10,8 +10,18 @@ export type SpacingProps = {
 }
 
 const StyledSpacing = styled.div`
-  ${(props: SpacingProps) => spacingCss('padding', props.theme ? props.theme.baseUnitPx : 8, props.padding)}
-  ${(props: SpacingProps) => spacingCss('margin', props.theme ? props.theme.baseUnitPx : 8, props.margin)}
+  ${(props: SpacingProps) => spacingCss(
+    'padding',
+    props.theme && props.theme.baseUnitPx
+        ? props.theme.baseUnitPx
+        : 8,
+    props.padding)}
+  ${(props: SpacingProps) => spacingCss(
+    'margin',
+    props.theme && props.theme.baseUnitPx
+        ? props.theme.baseUnitPx
+        : 8,
+    props.margin)}
 `
 
 /***

@@ -15,7 +15,7 @@ test("Component should have padding around it", () => {
     )
 
     expect(mountToJson(component)).toMatchSnapshot()
-    expect(component).toHaveStyleRule('padding', expect.any(String))
+    expect(component).toHaveStyleRule('padding', '8px')
 })
 
 test("Component should adapt its spacing based on the theme", () => {

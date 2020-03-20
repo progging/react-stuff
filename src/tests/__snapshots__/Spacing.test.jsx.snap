@@ -2,7 +2,7 @@
 
 exports[`Component should have padding around it 1`] = `
 .c0 {
-  padding: NaNpx;
+  padding: 8px;
 }
 
 <Spacing
