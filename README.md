@@ -1,4 +1,4 @@
-![Node.js CI](https://github.com/progging/react-stuff/workflows/Node.js%20CI/badge.svg?branch=master)
+![Build](https://github.com/progging/react-stuff/workflows/Build/badge.svg?branch=master)
 
 # React Stuff
 A collection of useful React components. Uses [`styled-components`](https://github.com/styled-components/styled-components) for CSS.
