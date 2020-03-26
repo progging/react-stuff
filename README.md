@@ -47,6 +47,15 @@ Makes a 100% wide element that aligns children on opposite sides of the parent (
 ```
 
 
+## `<Render>`
+Renders children on truthy conditions.
+```jsx
+    <Render if={false}>
+        <div>I will not render</div>
+    </Render>
+```
+
+
 ## `<Spacing>`
 Applies `margin` and/or `padding` to children in the magnitude of units (one unit is 8px). The prop can take an array of either 1, 2, or 4 integers:
 ```jsx

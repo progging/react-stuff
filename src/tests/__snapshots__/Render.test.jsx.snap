@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Children should be rendered on truthy condition 1`] = `
+<Render
+  if={true}
+>
+  <div />
+</Render>
+`;
+
+exports[`Children should not be rendered on falsy condition 1`] = `
+<Render
+  if={false}
+/>
+`;
