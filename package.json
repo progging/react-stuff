@@ -35,7 +35,7 @@
     "jest-styled-components": "^7.0.0",
     "jsdom": "^16.2.1",
     "lodash.kebabcase": "^4.1.1",
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.15.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "styled-components": "^5.0.1",
